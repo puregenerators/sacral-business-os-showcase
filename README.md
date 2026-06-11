@@ -4,6 +4,10 @@ An AI-native workspace that combines personalized memory, knowledge retrieval, a
 
 Built as an exploration of long-term personalization, AI orchestration, and implementation-focused user experiences.
 
+## Case Study
+
+https://www.sacralos.ai/case-study
+
 ## Overview
 
 I built Sacral Business OS to explore how AI can move beyond simple chat interactions and become a personalized workspace that helps users make decisions, organize information, and implement ideas. The platform combines persistent user memory, retrieval-augmented knowledge systems, and AI-powered guidance to deliver contextual recommendations based on each user's Human Design chart, goals, experiences, and evolving needs.
@@ -104,10 +108,6 @@ Rather than delivering generic advice, the system is designed to help users make
 - OpenAI
 - Gemini
 - Vercel
-
-## Case Study
-
-https://www.sacralos.ai/case-study
 
 ## Personalized Memory
 
