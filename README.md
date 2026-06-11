@@ -1,6 +1,8 @@
 # Sacral Business OS
 
-AI-native decision support and implementation platform that combines personalized memory, knowledge retrieval, and contextual guidance to help users apply Human Design and business methodologies in real-world situations.
+An AI-native workspace that combines personalized memory, knowledge retrieval, and contextual guidance to help entrepreneurs implement ideas and make decisions over time.
+
+Built as an exploration of long-term personalization, AI orchestration, and implementation-focused user experiences.
 
 ## Overview
 
@@ -33,18 +35,31 @@ flowchart TD
     PG --> P[Priorities]
     PG --> E[Execution]
 ```
+## Product Screenshots
 
-## Key Features
+### Main chat interface
+<img src="https://drive.google.com/uc?export=view&id=1IaUkXx7ZJmh90ov7hLL3TnOyuKrU1TUS" width="900" alt="Sacral Business OS architecture diagram" />
 
-- Personalized user memory
-- Knowledge retrieval (RAG-style architecture)
-- AI-powered guidance and decision support
-- Multi-model support (OpenAI + Gemini)
-- Streaming chat experience
-- User onboarding and profile system
-- Saved insights and long-term context
+### Energy data gathering feature
 
-## My Role
+<img src="https://drive.google.com/uc?export=view&id=17qBzwKSspxVPwzSFeZ0PHzisfIB-PH2p" width="900" alt="Sacral Business OS main workspace" />
+
+### Module to kick-start conversation
+<img src="https://drive.google.com/uc?export=view&id=1W-Njap2zPsLEPw8NtgoAGKFrUneJ8_2t" width="900" alt="AuraMate chat interface" />
+
+### Work insights based on energy data + Early time tracking API integration
+<img src="https://drive.google.com/uc?export=view&id=1SdL5n1ZB4cHfbCm7osM_e0kSgpX5bI2D" width="900" alt="Personalized memory interface" />
+
+### Human Design chart information modal
+<img src="https://drive.google.com/uc?export=view&id=1FeSk0cqY0YagbQYQ4brAy0kaFwiWTKkv" width="900" alt="Human Design chart view" />
+
+### Human design chart API integration
+<img src="https://drive.google.com/uc?export=view&id=15tmz2sTmR_P0wlZ6rgNpvDnvNXI6SXP-" width="900" alt="Knowledge base and retrieval system" />
+
+### User Memory/data modal
+<img src="https://drive.google.com/uc?export=view&id=1SQsGaDEoR2re0dONIh3I0itbYAC-l2l5" width="900" alt="Saved insights interface" />
+
+## What I built
 
 I designed and built the platform end-to-end, including:
 
@@ -57,6 +72,28 @@ I designed and built the platform end-to-end, including:
 - Frontend implementation
 - Database design
 - User onboarding
+
+## What Makes This Different
+
+Most AI applications treat each conversation as a new interaction, or only answer questions.
+
+Sacral Business OS was designed around the idea that meaningful guidance requires long-term context.
+
+The platform combines:
+
+- Persistent user memory
+- Human Design profile data
+- Retrieval-based knowledge systems
+- Conversation history
+- User goals and preferences
+
+to generate recommendations that become more personalized over time.
+
+The goal was to create something that does more than answer questions by creating an implementation system that helps users apply Human Design and business methodologies in their everyday work.
+
+The platform continuously incorporates new information as users interact with it. Users can connect time-tracking tools, log how energizing or draining different activities feel, save insights, and build a growing body of context that informs future guidance.
+
+Rather than delivering generic advice, the system is designed to help users make decisions, prioritize work, identify patterns, and take action based on their unique goals, experiences, and Human Design chart.
 
 ## Technology Stack
 
@@ -135,26 +172,3 @@ The assembled context is provided to the language model along with tool-specific
 
 This repository serves as a project case study and architecture overview. The production application is under active development.
 
-## Product Screenshots
-
-### Main chat interface
-<img src="https://drive.google.com/uc?export=view&id=1IaUkXx7ZJmh90ov7hLL3TnOyuKrU1TUS" width="900" alt="Sacral Business OS architecture diagram" />
-
-### Energy data gathering feature
-
-<img src="https://drive.google.com/uc?export=view&id=17qBzwKSspxVPwzSFeZ0PHzisfIB-PH2p" width="900" alt="Sacral Business OS main workspace" />
-
-### Module to kick-start conversation
-<img src="https://drive.google.com/uc?export=view&id=1W-Njap2zPsLEPw8NtgoAGKFrUneJ8_2t" width="900" alt="AuraMate chat interface" />
-
-### Work insights based on energy data + Early time tracking API integration
-<img src="https://drive.google.com/uc?export=view&id=1SdL5n1ZB4cHfbCm7osM_e0kSgpX5bI2D" width="900" alt="Personalized memory interface" />
-
-### Human Design chart information modal
-<img src="https://drive.google.com/uc?export=view&id=1FeSk0cqY0YagbQYQ4brAy0kaFwiWTKkv" width="900" alt="Human Design chart view" />
-
-### Human design chart API integration
-<img src="https://drive.google.com/uc?export=view&id=15tmz2sTmR_P0wlZ6rgNpvDnvNXI6SXP-" width="900" alt="Knowledge base and retrieval system" />
-
-### User Memory/data modal
-<img src="https://drive.google.com/uc?export=view&id=1SQsGaDEoR2re0dONIh3I0itbYAC-l2l5" width="900" alt="Saved insights interface" />
