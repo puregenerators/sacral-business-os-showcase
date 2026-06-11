@@ -6,44 +6,39 @@ AI-native decision support and implementation platform that combines personalize
 
 I built Sacral Business OS to explore how AI can move beyond simple chat interactions and become a personalized workspace that helps users make decisions, organize information, and implement ideas. The platform combines persistent user memory, retrieval-augmented knowledge systems, and AI-powered guidance to deliver contextual recommendations based on each user's Human Design chart, goals, experiences, and evolving needs.
 
-┌──────────────┐
-│     User     │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────────────┐
-│ Personalized Memory  │
-│ • Human Design       │
-│ • Preferences        │
-│ • Goals              │
-│ • Past Insights      │
-└──────┬───────────────┘
-       │
-       ▼
-┌──────────────────────┐
-│ Knowledge Retrieval  │
-│ • Human Design KB    │
-│ • Business Frameworks│
-│ • Methodologies      │
-└──────┬───────────────┘
-       │
-       ▼
-┌──────────────────────┐
-│  Context Assembly    │
-│ • Memory             │
-│ • Retrieved Content  │
-│ • Conversation       │
-│ • Tool Instructions  │
-└──────┬───────────────┘
-       │
-       ▼
-┌──────────────────────┐
-│     AI Guidance      │
-│ • Decision Support   │
-│ • Prioritization     │
-│ • Implementation     │
-│ • Reflection         │
-└──────────────────────┘
+## System Architecture
+
+```mermaid
+flowchart TD
+
+    U[User]
+
+    subgraph P["Personalization Layer"]
+        HD[Human Design Chart]
+        MEM[User Memory]
+        GOALS[Goals & Preferences]
+        INSIGHTS[Saved Insights]
+    end
+
+    subgraph K["Knowledge Layer"]
+        KB[Human Design Knowledge Base]
+        BM[Business Methodologies]
+    end
+
+    subgraph C["Context Assembly"]
+        CTX[Context Engine]
+    end
+
+    subgraph A["AI Guidance"]
+        AM[AuraMate]
+    end
+
+    U --> P
+    P --> CTX
+    K --> CTX
+    U --> CTX
+    CTX --> AM
+```
 
 ## Key Features
 
