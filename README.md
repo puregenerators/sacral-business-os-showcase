@@ -134,3 +134,26 @@ The assembled context is provided to the language model along with tool-specific
 ## Note
 
 This repository serves as a project case study and architecture overview. The production application is under active development.
+
+## Product Screenshots
+
+### Main Workspace
+<img src="https://drive.google.com/uc?export=view&id=17qBzwKSspxVPwzSFeZ0PHzisfIB-PH2p" width="900" alt="Sacral Business OS main workspace" />
+
+### AuraMate Chat
+<img src="https://drive.google.com/uc?export=view&id=1W-Njap2zPsLEPw8NtgoAGKFrUneJ8_2t" width="900" alt="AuraMate chat interface" />
+
+### Personalized Memory
+<img src="https://drive.google.com/uc?export=view&id=1SdL5n1ZB4cHfbCm7osM_e0kSgpX5bI2D" width="900" alt="Personalized memory interface" />
+
+### Human Design Chart
+<img src="https://drive.google.com/uc?export=view&id=1FeSk0cqY0YagbQYQ4brAy0kaFwiWTKkv" width="900" alt="Human Design chart view" />
+
+### Knowledge Base / Retrieval
+<img src="https://drive.google.com/uc?export=view&id=15tmz2sTmR_P0wlZ6rgNpvDnvNXI6SXP-" width="900" alt="Knowledge base and retrieval system" />
+
+### Saved Insights
+<img src="https://drive.google.com/uc?export=view&id=1SQsGaDEoR2re0dONIh3I0itbYAC-l2l5" width="900" alt="Saved insights interface" />
+
+### Architecture / Workflow
+<img src="https://drive.google.com/uc?export=view&id=1IaUkXx7ZJmh90ov7hLL3TnOyuKrU1TUS" width="900" alt="Sacral Business OS architecture diagram" />
