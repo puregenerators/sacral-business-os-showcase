@@ -10,25 +10,34 @@ I built Sacral Business OS to explore how AI can move beyond simple chat interac
 
 ## Core AI Workflow
 
+The platform combines persistent user context, retrieval-based knowledge systems, and AI-powered guidance to help users make decisions, prioritize actions, and implement ideas over time.
+
+## System Architecture
+
+The platform combines persistent user context, retrieval-based knowledge systems, and AI-powered guidance to help users make decisions, prioritize actions, and implement ideas over time.
+
 ```mermaid
 flowchart TD
 
     U[User]
 
-    U --> UC[User Context<br/>Human Design • Memory • Goals • Insights]
+    UC[User Context<br/>Human Design • Memory • Goals • Insights]
 
-    U --> KR[Knowledge Retrieval<br/>Human Design KB • Business Frameworks]
+    KB[Knowledge Base<br/>Human Design • Business Methodologies]
+
+    U --> UC
+    U --> KB
 
     UC --> CE[Context Engine]
-    KR --> CE
+    KB --> CE
 
-    CE --> AI[AuraMate]
+    CE --> AM[AuraMate Assistant]
 
-    AI --> OUT[Personalized Guidance]
+    AM --> PG[Personalized Guidance]
 
-    OUT --> D[Decisions]
-    OUT --> P[Priorities]
-    OUT --> I[Implementation]
+    PG --> D[Decisions]
+    PG --> P[Priorities]
+    PG --> E[Execution]
 ```
 
 ## Key Features
