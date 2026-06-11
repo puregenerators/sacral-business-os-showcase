@@ -8,12 +8,6 @@ I built Sacral Business OS to explore how AI can move beyond simple chat interac
 
 ## System Architecture
 
-## Core AI Workflow
-
-The platform combines persistent user context, retrieval-based knowledge systems, and AI-powered guidance to help users make decisions, prioritize actions, and implement ideas over time.
-
-## System Architecture
-
 The platform combines persistent user context, retrieval-based knowledge systems, and AI-powered guidance to help users make decisions, prioritize actions, and implement ideas over time.
 
 ```mermaid
