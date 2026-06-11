@@ -8,36 +8,27 @@ I built Sacral Business OS to explore how AI can move beyond simple chat interac
 
 ## System Architecture
 
+## Core AI Workflow
+
 ```mermaid
 flowchart TD
 
     U[User]
 
-    subgraph P["Personalization Layer"]
-        HD[Human Design Chart]
-        MEM[User Memory]
-        GOALS[Goals & Preferences]
-        INSIGHTS[Saved Insights]
-    end
+    U --> UC[User Context<br/>Human Design • Memory • Goals • Insights]
 
-    subgraph K["Knowledge Layer"]
-        KB[Human Design Knowledge Base]
-        BM[Business Methodologies]
-    end
+    U --> KR[Knowledge Retrieval<br/>Human Design KB • Business Frameworks]
 
-    subgraph C["Context Assembly"]
-        CTX[Context Engine]
-    end
+    UC --> CE[Context Engine]
+    KR --> CE
 
-    subgraph A["AI Guidance"]
-        AM[AuraMate]
-    end
+    CE --> AI[AuraMate]
 
-    U --> P
-    P --> CTX
-    K --> CTX
-    U --> CTX
-    CTX --> AM
+    AI --> OUT[Personalized Guidance]
+
+    OUT --> D[Decisions]
+    OUT --> P[Priorities]
+    OUT --> I[Implementation]
 ```
 
 ## Key Features
