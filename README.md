@@ -119,3 +119,18 @@ The assembled context is provided to the language model along with tool-specific
 - Accepted increased system complexity in exchange for more adaptive and user-specific guidance.
 - Focused on implementation support and decision-making rather than building a general-purpose AI assistant.
 - Prioritized response quality over feature expansion. I focused on making the AI feel genuinely personalized and context-aware (uncanny!) before investing in additional workspace features, believing that trust and relevance were more important to adoption than feature count.
+
+- ## Technical Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Supabase
+- Clerk
+- OpenAI
+- Gemini
+- Vercel
+
+## Note
+
+This repository serves as a project case study and architecture overview. The production application is under active development.
